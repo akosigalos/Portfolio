@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Personal portfolio of an aspiring Information Technology professional." />
+  <title>Gilbert M. Galos | IT Student Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main-content">Skip to content</a>
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main navigation">
+      <a class="logo" href="#home">GMG<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-label="Open navigation menu" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <div class="nav-links">
+        <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a>
+        <a href="#projects">Projects</a><a href="#education">Education</a><a href="#contact">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main-content">
+    <section id="home" class="hero">
+      <div class="hero-glow glow-one"></div><div class="hero-glow glow-two"></div>
+      <div class="container hero-content">
+        <div class="hero-copy reveal">
+          <p class="eyebrow">BS Information Technology Student</p>
+          <h1>Hello, I’m <span>Gilbert M. Galos.</span></h1>
+          <p class="hero-text">A college student from Davao del Norte State College, developing practical skills in programming, web development, networking, and problem-solving.</p>
+          <div class="hero-actions">
+            <a class="button button-primary" href="#projects">View My Projects <span aria-hidden="true">→</span></a>
+            <a class="button button-secondary" href="#contact">Contact Me</a>
+          </div>
+        </div>
+        <div class="profile-wrap reveal">
+          <div class="profile-placeholder">
+            <img src="assets/gilbert-galos-profile.png" alt="Gilbert M. Galos" />
+          </div>
+          <div class="orbit orbit-one"></div><div class="orbit orbit-two"></div>
+          <p class="availability"><i></i> Open to learning opportunities</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section">
+      <div class="container two-column">
+        <div class="section-heading reveal"><p class="eyebrow">About me</p><h2>Learning IT through<br />hands-on projects.</h2></div>
+        <div class="about-copy reveal">
+          <p>I’m a Bachelor of Science in Information Technology student at Davao del Norte State College. My coursework has helped me build a foundation in programming, computer systems, mathematics for IT, and networking.</p>
+          <p>I learn best by building. From a first animation activity to web-defense, CRUD, and capstone projects, I’m developing the practical skills needed to create useful digital solutions.</p>
+          <div class="quick-facts"><div><strong>01</strong><span>Hands-on<br />course projects</span></div><div><strong>02</strong><span>Building a strong<br />IT foundation</span></div></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="section section-tint">
+      <div class="container"><div class="section-intro reveal"><p class="eyebrow">Skills & tools</p><h2>My growing technical toolkit.</h2><p>Technologies I use in coursework and personal projects.</p></div>
+        <div class="skills-grid">
+          <article class="skill-card reveal"><span class="skill-number">01</span><h3>Programming Foundations</h3><div class="tags"><span>Python</span><span>Java</span><span>Algorithms</span><span>Problem-solving</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">02</span><h3>Computer Fundamentals</h3><div class="tags"><span>Hardware</span><span>Software</span><span>Computer Architecture</span></div></article>
+          <article class="skill-card reveal"><span class="skill-number">03</span><h3>Networking & IT Math</h3><div class="tags"><span>IP Addresses</span><span>Routers</span><span>Switches</span><span>Discrete Math</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section">
+      <div class="container"><div class="section-intro projects-heading reveal"><div><p class="eyebrow">Selected work</p><h2>Projects I’ve built.</h2></div><p>Examples of how I apply technology to practical challenges.</p></div>
+        <div class="projects-grid">
+          <article class="project-card featured reveal"><div class="project-visual"><img src="assets/air-bound-dashboard.png" alt="AIR-BOUND dashboard with pollution map and live sensor data" /><span>01</span></div><div class="project-content"><p class="project-label">Capstone • IoT</p><h3>AIR-BOUND</h3><p>An IoT-based air-quality platform that presents sensor telemetry, geographic pollution data, alert history, and analytics through a web dashboard.</p><div class="tags"><span>IoT</span><span>ESP32</span><span>Sensor telemetry</span><span>Geo-spatial mapping</span></div><details class="project-details"><summary>View project screenshots</summary><div class="project-gallery"><img src="assets/air-bound-dashboard.png" alt="AIR-BOUND maps, live readings, and alert dashboard" /><img src="assets/air-bound-device-and-analytics.png" alt="AIR-BOUND analytics, web interface, and demo device" /></div></details></div></article>
+          <article class="project-card reveal"><div class="project-visual"><img src="assets/grocery-store-interface.png" alt="RJGC Grocery Store product and checkout interface" /><span>02</span></div><div class="project-content"><p class="project-label">Desktop • CRUD System</p><h3>RJGC Grocery Store Management</h3><p>A grocery store management system with product categories, inventory-style product browsing, checkout controls, receipt output, and supporting database records.</p><div class="tags"><span>CRUD</span><span>Product catalog</span><span>Receipt generation</span><span>Database</span></div><details class="project-details"><summary>View project screenshots</summary><div class="project-gallery"><img src="assets/grocery-store-interface.png" alt="RJGC Grocery Store screens for product browsing and checkout" /><img src="assets/grocery-receipt-database.png" alt="RJGC Grocery Store receipt and database administration screens" /><img src="assets/grocery-team-presentation.png" alt="RJGC Grocery Store project team presentation" /></div></details></div></article>
+          <article class="project-card reveal"><div class="project-visual"><img src="assets/vaca-landing-page.png" alt="VACA travel guide landing page" /><span>03</span></div><div class="project-content"><p class="project-label">Web • Travel Guide</p><h3>VACA Travel Guide</h3><p>A travel-guide website with a visual landing page, destination categories, travel information pages, a team page, and login and sign-up interfaces.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Responsive layouts</span><span>UI design</span></div><details class="project-details"><summary>View project screenshots</summary><div class="project-gallery"><img src="assets/vaca-landing-page.png" alt="VACA landing page" /><img src="assets/vaca-pages.png" alt="VACA destination and login pages" /><img src="assets/vaca-about-signup.png" alt="VACA about and sign-up pages" /></div></details></div></article>
+          <article class="project-card reveal"><div class="project-visual"><img src="assets/registration-login-and-css-work.png" alt="Registration and login interface with source code" /><span>04</span></div><div class="project-content"><p class="project-label">Desktop • Authentication</p><h3>Secure Registration and Login System</h3><p>A form-based account registration and login project with an authentication interface and database-query implementation shown in the project work.</p><div class="tags"><span>Java</span><span>SQL</span><span>Registration</span><span>Login interface</span></div><details class="project-details"><summary>View project screenshot</summary><div class="project-gallery"><img src="assets/registration-login-and-css-work.png" alt="Registration and login interface alongside implementation work" /></div></details></div></article>
+          <article class="project-card activity-card reveal"><div class="project-visual"><img src="assets/css-animation-lab.png" alt="CSS animation exercise with rotating leaf shapes" /><span>05</span></div><div class="project-content"><p class="project-label">Class Activity • Front-end</p><h3>CSS &amp; Animation Exercises</h3><p>Early front-end exercises demonstrating CSS styling and a simple animated graphic, included as part of my portfolio development work.</p><div class="tags"><span>HTML</span><span>CSS</span><span>Animation</span><span>Front-end practice</span></div><details class="project-details"><summary>View activity screenshot</summary><div class="project-gallery"><img src="assets/css-animation-lab.png" alt="CSS animation exercise" /></div></details></div></article>
+        </div>
+        <p class="placeholder-note">GitHub repositories and live-demo URLs were not provided. Add those buttons once the relevant project links are available.</p>
+      </div>
+    </section>
+
+    <section id="education" class="section section-tint"><div class="container two-column"><div class="section-heading reveal"><p class="eyebrow">Education</p><h2>Building a strong foundation in IT.</h2></div><article class="education-card reveal"><p class="education-date">2023–2024</p><h3>Bachelor of Science in Information Technology</h3><p class="school-name">Davao del Norte State College</p><p>Coursework includes programming fundamentals, computer hardware and software, mathematics for IT, and introductory networking.</p></article></div></section>
+
+    <section id="contact" class="contact-section"><div class="container contact-card reveal"><p class="eyebrow">Let’s connect</p><h2>Have a project or opportunity in mind?</h2><p>I’d be glad to connect. You can reach me through my school email.</p><div class="contact-actions"><a class="button button-light" href="mailto:galos.gilbert@dnsc.edu.ph">Email Me <span aria-hidden="true">→</span></a><a class="text-link light-link" href="https://github.com/your-github-username" target="_blank" rel="noopener">GitHub profile ↗</a></div></div></section>
+  </main>
+  <footer><div class="container footer-content"><a class="logo" href="#home">GMG<span>.</span></a><p>© <span id="year"></span> Gilbert M. Galos. Built with HTML, CSS & JavaScript.</p><a href="https://github.com/your-github-username" target="_blank" rel="noopener">GitHub ↗</a></div></footer>
+  <script src="script.js"></script>
+</body>
+</html>
