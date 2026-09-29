@@ -1,3 +1,8 @@
 Portfolio Merge Conflict Demo
+<<<<<<< HEAD
 Version: Branch 1
 Status: Modified by Branch 1
+=======
+Version: Branch 2
+Status: Modified by Branch 2
+>>>>>>> branch2
